@@ -1,5 +1,5 @@
 # openai-usage-example
-A simple usage example for OpenAI API
+A simple usage example for OpenAI API on Node.js, Express and openai library
 
 ```
 npm i
