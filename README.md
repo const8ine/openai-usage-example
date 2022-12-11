@@ -10,17 +10,20 @@ npm i
 npm run start
 ```
 
----
-
-Before the launch you need to set API key.
-
-To generate an API key go to https://beta.openai.com/account/api-keys
+An app will run on port 8080
 
 ---
 
-Request: GET localhost:8080/api?q=%25ultimate%20question%20of%20life%2C%20the%20universe%2C%20and%20everything
+Before the launch you need to set API key to `OPENAI_API_KEY` environment variable. <br>
 
-Response:
+To generate an API key go to https://beta.openai.com/account/api-keys, click "Create new secret key" button and copy the token from the field.
+
+---
+
+**Request:** <br>
+GET http://localhost:8080/api?q=%25ultimate%20question%20of%20life%2C%20the%20universe%2C%20and%20everything
+
+**Response:**
 
 ```
 {
