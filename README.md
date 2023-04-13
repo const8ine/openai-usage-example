@@ -1,4 +1,4 @@
-# OpenAI API usage example
+# ChatGPT API usage example
 A simple usage example for OpenAI API. This is a middleware based on Node.js, Express and openai library.
 
 ```
